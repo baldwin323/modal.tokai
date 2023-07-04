@@ -1,0 +1,82 @@
+# .gitignore
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.ipynb
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+# Directories
+venv/
+__pycache__/
+build/
+dist/
+*.egg-info/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Operating systems
+*.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# pytest
+.tox/
+.pytest_cache/
+
+# Pyenv
+.python-version
+
+# Environment variables
+.env
+
+# SQLite
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Dataset
+*.csv
+*.tsv
+*.xlsx
+
+# Model files
+*.h5
+*.pkl
+
+# Others
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.bak
+*.bak1
+*.tmp
+*.~
+*.swp
+*.swo
+*.swn
+*.bak
+*.bak1
+*.tmp
+*.~
