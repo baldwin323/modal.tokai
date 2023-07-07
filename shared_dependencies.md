@@ -1,40 +1,15 @@
-1. **Shared Variables**: 
-   - `creator_account`: Represents the Onlyfans creator's account.
-   - `subscriber_account`: Represents the subscriber's account.
-   - `payment_methods`: A list of supported payment methods.
-   - `content_data`: Data related to the content posted by the creator.
-   - `engagement_data`: Data related to subscriber engagement.
-   - `revenue_data`: Data related to revenue generation.
+1. "github_repository_link": This is a shared variable that contains the URL of the GitHub repository. It will be used in "README.md" for cloning instructions and in "run_instructions.py" for running the repository.
 
-2. **Data Schemas**: 
-   - `AccountSchema`: Schema for the creator and subscriber accounts.
-   - `PaymentSchema`: Schema for the payment system.
-   - `ContentSchema`: Schema for the content data.
-   - `EngagementSchema`: Schema for the engagement data.
-   - `RevenueSchema`: Schema for the revenue data.
+2. "existing_code.py": This is the name of the Python file that contains the existing code. It will be used in "cleaned_code.py" for code cleanup and in "run_instructions.py" for running instructions.
 
-3. **Function Names**: 
-   - `analyze_performance()`: Function in `analytics.py` to analyze account performance.
-   - `process_payment()`: Function in `payment_system.py` to process payments.
-   - `generate_response()`: Function in `chatbot.py` to generate chatbot responses.
-   - `integrate_social_media()`: Function in `integration.py` to integrate with social media platforms.
-   - `check_compatibility()`: Function in `compatibility.py` to check platform compatibility.
+3. "cleaned_code.py": This is the name of the Python file that contains the cleaned code. It will be used in "missing_files.py" to check for any missing files and in "run_instructions.py" for running instructions.
 
-4. **Message Names**: 
-   - `PaymentSuccess`: Message sent when a payment is successfully processed.
-   - `PaymentFailure`: Message sent when a payment fails.
-   - `PerformanceReport`: Message sent with the performance analytics report.
-   - `ChatbotResponse`: Message sent with the chatbot's response.
+4. "missing_files.py": This is the name of the Python file that checks for any missing files. It will be used in "run_instructions.py" for running instructions.
 
-5. **DOM Element IDs**: 
-   - `chatbot`: ID for the chatbot interface.
-   - `payment`: ID for the payment interface.
-   - `analytics`: ID for the analytics interface.
-   - `content`: ID for the content interface.
-   - `engagement`: ID for the engagement interface.
-   - `revenue`: ID for the revenue interface.
+5. "clone_command": This is a shared variable that contains the command to clone the GitHub repository. It will be used in "README.md" for cloning instructions.
 
-6. **Library Imports**: 
-   - `nltk`, `spacy`: Libraries for natural language processing.
-   - `tensorflow`, `pytorch`: Libraries for machine learning.
-   - `social_media_api`: Library for social media platform integration.
+6. "run_command": This is a shared variable that contains the command to run the GitHub repository. It will be used in "run_instructions.py" for running instructions and in "README.md" for running instructions.
+
+7. "installation_requirements": This is a shared variable that contains any requirements needed to run the GitHub repository. It will be used in "run_instructions.py" for running instructions and in "README.md" for running instructions.
+
+8. "README.md": This is the name of the markdown file that contains instructions on how to clone and run the GitHub repository. It will be used in "run_instructions.py" for running instructions.
